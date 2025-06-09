@@ -111,6 +111,41 @@ pomegranate-disease-classifier/
 
 ---
 
+
+## 📊 Dataset
+
+The project uses the [Pomegranate Fruit Diseases Dataset](https://www.kaggle.com/datasets/sujaykapadnis/pomegranate-fruit-diseases-dataset) by Sujay Kapadnis, hosted on Kaggle. It contains labeled images of healthy and diseased pomegranate fruits across multiple classes.
+
+### 📥 How to Download
+
+You can download the dataset manually or using the Kaggle API:
+
+#### 📌 Option 1: Manual Download
+
+1. Go to the [Kaggle Dataset Page](https://www.kaggle.com/datasets/sujaykapadnis/pomegranate-fruit-diseases-dataset)
+2. Sign in and click **Download**.
+3. Extract the dataset into the `dataset/` folder of this project.
+
+#### 🐍 Option 2: Using the Kaggle API
+
+If you have the Kaggle CLI installed and configured:
+
+```bash
+kaggle datasets download -d sujaykapadnis/pomegranate-fruit-diseases-dataset
+unzip pomegranate-fruit-diseases-dataset.zip -d dataset/
+```
+
+Make sure the final structure looks like this:
+
+```bash
+pomegranate-disease-classifier/
+├── dataset/
+│   ├── Alternaria/
+│   ├── Anthracnose/
+│   ├── Bacterial Blight/
+│   └── Cercospora/
+```
+
 ## ⚙️ Installation & Running the Project
 
 ### Step 1: Clone the Repository
