@@ -171,7 +171,7 @@ pip install -r requirements.txt
 
 ### Step 4: Set Your OpenWeatherMap API Key
 
-Edit `weather_utils.py` and add your API key:
+Edit `app.py` and add your API key:
 
 ```python
 API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"
